@@ -10,8 +10,10 @@ A Python application that uses Duffel Air API to analyze real-time flights based
 * Routing: Can handle both one-way and round-trip searches
 * Class Selection: User can pick their class prefrence of Economy,Premium, Business, or First Class. 
 
-
+### Tools
 * Language: Python
-* API Integration: The requests library for RESTful communication. 
-* Security: Used a .env file to secure the keys to avoid risk with API credits.
-* Data Processing: datetime for ISO string and time formatting. 
+* Duffel Air API: Data source for real-time flight offers and airline information.
+* Requests Library: Handles HTTP communication and REST API calls.
+* Python-Dotenv: Keeps API tokens secure.
+* Vim: Text editor for writing code and working in the terminal.  
+
