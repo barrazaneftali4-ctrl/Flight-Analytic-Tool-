@@ -1,7 +1,7 @@
 import os
 import requests
 from datetime import datetime 
-from dotenv import load_dotenv #
+from dotenv import load_dotenv 
 
 load_dotenv()
 
@@ -134,7 +134,7 @@ if response.status_code == 201:
 
                     name = f"{marketing}"
                     if marketing != airline:
-                        name += f"(Opertated by {airline})"
+                        name += f" (Opertated by {airline})"
 
                     print(f"      FOUND:   Total: ${p:.2f} via {name}")
 
